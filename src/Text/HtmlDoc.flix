@@ -332,18 +332,18 @@ mod Text.HtmlDoc {
     /// Void elements
     ///
 
-    pub def area0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("area /", attrs))
-    pub def base0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("base /", attrs))
-    pub def br0(attrs: List[HtmlAttr]): Html                        = makeHtml(HtmlTagNoBody("br /", attrs))
-    pub def col0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("col /", attrs))
-    pub def embed0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("embed /", attrs))
-    pub def img0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("img /", attrs))
-    pub def input0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("input /", attrs))
-    pub def link0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("link /", attrs))
-    pub def meta0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("meta /", attrs))
-    pub def source0(attrs: List[HtmlAttr]): Html                    = makeHtml(HtmlTagNoBody("source /", attrs))
-    pub def track0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("track /", attrs))
-    pub def wbr0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("wbr /", attrs))
+    pub def area0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("area", attrs))
+    pub def base0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("base", attrs))
+    pub def br0(attrs: List[HtmlAttr]): Html                        = makeHtml(HtmlTagNoBody("br", attrs))
+    pub def col0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("col", attrs))
+    pub def embed0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("embed", attrs))
+    pub def img0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("img", attrs))
+    pub def input0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("input", attrs))
+    pub def link0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("link", attrs))
+    pub def meta0(attrs: List[HtmlAttr]): Html                      = makeHtml(HtmlTagNoBody("meta", attrs))
+    pub def source0(attrs: List[HtmlAttr]): Html                    = makeHtml(HtmlTagNoBody("source", attrs))
+    pub def track0(attrs: List[HtmlAttr]): Html                     = makeHtml(HtmlTagNoBody("track", attrs))
+    pub def wbr0(attrs: List[HtmlAttr]): Html                       = makeHtml(HtmlTagNoBody("wbr", attrs))
 
     ///
     /// Forms

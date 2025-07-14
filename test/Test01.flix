@@ -59,4 +59,9 @@ mod Test01 {
     def test10(): Unit \ IO =
         use Text.HtmlDoc.{anchor, HtmlAttr, text};
         anchor(List#{HtmlAttr.HtmlAttrBoolean("download"), HtmlAttr.HtmlAttr("href", "https://example.com")}, text("Click me!")) |> toString |> println
+    
+    @test
+    def test11(): Unit \ IO =
+        use Text.HtmlDoc.{meta0, HtmlAttr};
+        meta0(List#{HtmlAttr.HtmlAttr("author", "Harold")}) |> toString |> println
 }
